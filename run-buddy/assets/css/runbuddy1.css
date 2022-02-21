@@ -38,7 +38,7 @@ header nav ul {
     list-style: none;
 }  
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.5vw;
 }    
@@ -61,6 +61,7 @@ section {
     background-image: url("./hero-bg.jpg");
     background-size: cover;
     background-position: center;
+    align-items: flex-start;
 }
 .hero-cta {
     width: 35%;
@@ -68,7 +69,7 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 .hero-cta h2 {
     font-style: italic;
@@ -114,7 +115,7 @@ section {
         
 /* steps style starts here*/
 .section-title {    
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     display: inline-block;
     border-bottom: 3px solid;
@@ -313,3 +314,24 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header h1 a {
+  
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    header h1 {
+    
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    header h1 {
+    
+    }
+  }
